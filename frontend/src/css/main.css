@@ -1,0 +1,35 @@
+.main-bg {
+    background-size: cover;
+    background: #D4E9F2;
+    background: linear-gradient(45deg, #0f8cbd 0%, #FFFFFF 100%);
+    background-position: center;
+}
+
+.banner-bg {
+    background: url('/src/images/banner-img.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-right{
+    background: url('/src/images/login-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes moveAround {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, -100vh); 
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.animate-move {
+    animation: moveAround 40s linear infinite;
+}
